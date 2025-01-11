@@ -1,0 +1,14 @@
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/bin/Debug/net8.0/HTTPServer.cs
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/bin/Debug/net8.0/HttpServerLibrary.deps.json
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/bin/Debug/net8.0/HttpServerLibrary.dll
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/bin/Debug/net8.0/HttpServerLibrary.pdb
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.csproj.AssemblyReference.cache
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.AssemblyInfoInputs.cache
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.AssemblyInfo.cs
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.csproj.CoreCompileInputs.cache
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.sourcelink.json
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.dll
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/refint/HttpServerLibrary.dll
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.pdb
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/ref/HttpServerLibrary.dll

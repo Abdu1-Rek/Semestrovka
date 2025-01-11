@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Настоящая боль</title>
+    <meta name="charset" content="utf-8">
+    <link rel="stylesheet" href="css/styles.css" as="style">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Russian">
+    <meta name="contact" content="help@inoriginal.online">
+
+    <!-- ViewPort -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0, minimum-scale=0.86">
+    <meta content="true" name="HandheldFriendly">
+    <meta content="width" name="MobileOptimized">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+</head>
+<body>
+    <!--Main Navigation-->
+    <div class="wrapper bg_cover" style="--bg-img: url(https://inoriginal.net/uploads/posts/2025-01/1736185099_bg.webp);" >
+    <!-- Header -->
+        <header class="container">
+        <!--Logo-->
+        <div class="left">
+            <div class="logo">
+                <a href="index.html">
+                    <i class="icons-logo-animate"></i>
+                </a>
+            </div>
+        </div>
+        <div class="right">
+            <!--Navigation-->
+            <nav class="top_menu">
+                <div class="top_menu_content">
+                    <div class="link_menu">
+                        <a href="https://inoriginal.net/lastnews.html" >
+                            <span class="body-1">Новинки</span>
+                        </a>
+                    </div>
+                    <div class="link_menu">
+                        <a href="index.html" class="active">
+                            <span class="body-1">Фильмы</span>
+                        </a>
+                    </div>
+                    <div class="link_menu">
+                        <a href="https://inoriginal.net/series/" >
+                            <span class="body-1">Сериалы</span>
+                        </a>
+                    </div>
+                    <div class="link_menu">
+                        <a href="https://inoriginal.net/genre/" >
+                            <span class="body-1">Жанры</span>
+                        </a>
+                    </div>
+                    <div class="link_menu">
+                        <a href="https://inoriginal.net/studios/" >
+                            <span class="body-1">Студии</span>
+                        </a>
+                    </div>
+                    <div class="link_menu">
+                        <a href="https://inoriginal.net/selection/" >
+                            <span class="body-1">Коллекции</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+            <!--Profile-->
+            <div class="acc-block">
+                <div class="search_block">
+                    <a class="search_but">
+                        <i class="icons-search"></i>
+                    </a>
+                </div>
+                <div class="separator"></div>
+                <div class="fav_block">
+                    <div class="fav-count" id="favorite_count" style="display: none">
+                        0
+                    </div>
+                    <a href="https://inoriginal.net/favorites" class="fav_but fav-but-header">
+                        <i class="icons-fav"></i>
+                    </a>
+                </div>
+                <div class="dic_block">
+                    <div class="dic-count" id="dictionary_count" style="display: none">
+                        0
+                    </div>
+                    <a href="https://inoriginal.net/dictionary" class="dic_but dic-but-header">
+                    <i class="icons-dic"></i>
+                    </a>
+                </div>
+
+            <div class="avatar notsubs">
+    <a onclick="profileDropdown()" class="dropbtn"></a>
+    <img src="//inoriginal.net/uploads/fotos/foto_400389.webp" width="40" height="40" alt="Алмаз Низамов_3" class="avatardrop" id="avatardrop" />
+    <div id="profiledrop" class="dropdown">
+        <div class="loginblock">
+            <div class="avatarblock notsubs">
+                <img src="//inoriginal.net/uploads/fotos/foto_400389.webp" width="40" height="40" alt="Алмаз Низамов_3" />
+            </div>
+            <div class="lbcontainer">
+                <div class="lbname">
+                    <a href="https://inoriginal.net/user/%D0%90%D0%BB%D0%BC%D0%B0%D0%B7+%D0%9D%D0%B8%D0%B7%D0%B0%D0%BC%D0%BE%D0%B2_3/" class="button-1 login-link user" title="Перейти в профиль Алмаз Низамов_3">
+                        Алмаз Низамов
+                        
+                    </a>
+                </div>
+                <div class="lbemail">
+                    <span class="caption-1"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="24454849455e094a4d5e45494b52161414106449454d480a5651">[email&#160;protected]</a>
+</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    </div>
+</div>
+
+    <div class="head-search" id="head-search">
+        <div class="head-search-container">
+            <div id="search-ajax-block" class="search-ajax-block">
+                <form action="/" method="GET" class="search-form">
+                    <input id="story" name="story" class="search" type="search" autocomplete="off"
+                        placeholder="Название фильма или сериала..." data-hotkey="Command+s,/ ">
+                    <input type="hidden" name="do" value="search">
+                    <input type="hidden" name="subaction" value="search">
+                    <div class="search-icon">
+                        <button class="q_search_btn" type="submit">
+                            <i class="icons-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="search_btn">
+                <a type="reset" class="close_search" type="submit" onclick="searchopen();">
+                    <i class="icons-close"></i>
+                </a>
+            </div>
+        </div>
+        <div class="head-search-result" id="search-ajax-result"></div>
+    </div>
+</header>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    function updateIconAndCount(score, countElementId, iconElementClass, iconClassFull, iconClassEmpty) {
+        const countElement = document.getElementById(countElementId);
+        const iconElement = document.querySelector(iconElementClass);
+        if (score === 0) {
+            countElement.style.display = 'none';
+            iconElement.classList.remove(iconClassFull);
+            iconElement.classList.add(iconClassEmpty);
+        } else {
+            countElement.style.display = 'flex';
+            iconElement.classList.remove(iconClassEmpty);
+            iconElement.classList.add(iconClassFull);
+        }
+    }
+    const favScore = 0;
+    updateIconAndCount(favScore, 'favorite_count', '.fav_but i', 'icons-fav-full', 'icons-fav');
+    const dicScore = 0;
+    updateIconAndCount(dicScore, 'dictionary_count', '.dic_but i', 'icons-dic-full', 'icons-dic');
+</script>
+        <!--Main layout-->
+        <main>
+        
+
+        
+        <div class="container">
+        
+
+<script>
+    $(document).ready(function () {
+        $('.catnewscount').each(function (index) {
+            var text = $(this).text();
+            if (text > '0') {
+                $(this).css('display', 'initial');
+            } else {
+                $(this).css('display', 'none');
+            };
+        });
+    });
+</script>
+
+
+
+<!-- Скрипты фильтра -->
+            <div id="dle-content"><article class="full-post" itemscope itemtype="https://schema.org/Movie"  data-uwebp="true">
+    <div class="content">
+        <article>
+
+            <div id="playerjs" class="playerjs"></div>
+            <div id="player2js" class="player2js"></div>
+            
+
+            <!-- Скрипты -->
+            
+            <script>
+                var playerjs = new Playerjs({
+                    id: "playerjs",
+                    "t1": "",
+                    "t2": "",
+                    
+                    
+                    "skip": "1-28",
+                    "poster": "/templates/inoriginal-c633d74550/assets/img/bg.webp",
+                    "subtitle": "[Английские]https://inoriginal.net/uploads/public_files/2025-01/1736245939_eng.vtt,[Русские]https://inoriginal.net/uploads/public_files/2025-01/1736245995_rus.vtt",
+                    file: "https://stream1.inoriginal.net/films/a-real-pain-2024/1080p.mp4/index.m3u8?h=92fIlCfmXctayENfBm1LgQ&e=1736504115",
+                    logosrc: "https://inoriginal.net/uploads/posts/2025-01/1736185111_logo.webp",
+                    player: 1,
+                    autoplay: 0,
+                    "forbidden_quality": "HD 720,Full HD 1080",
+                    "default_quality": "SD 480",
+                });
+                var player2js = new Playerjs({
+                    id: "player2js",
+                    file: "-",
+                    player: 2
+                });
+            </script>
+            
+            
+
+            <div class="head-wrapper">
+                <div class="head-block">
+                    <div class="title-head" style="display: none">
+                        <h1>Настоящая боль</h1>
+                    </div>
+                    
+                    <div class="logo-head">
+                        <img class="xfieldimage logo" src="/uploads/posts/2025-01/1736185111_logo.webp" alt="">
+                    </div>
+                    
+                    <div class="head-info">
+                        <div class="rate">
+                            
+                            <span class='kp caption-3 green'>7.1</span>
+                            
+                            
+                            <span class='imdb caption-3 green'>7.4</span>
+                            
+                            <span class='in caption-3 gray' data-rating-score-id="4773">6.3</span>
+                        </div>
+                        
+                        <div class="head-years body-1">
+                            <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                        </div>
+                        
+                        <div class="head-cat body-1">
+                            <a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/comedy/">Комедии</a>
+                        </div>
+                        
+                        <div class="head-time body-1">
+                            1 ч 30 мин
+                        </div>
+                        
+                        
+                        <div class="head-time body-1">
+                            18+
+                        </div>
+                        
+                    </div>
+                    <div class="head-lang">
+                        
+                        <div class="head-voice body-2">
+                            <i class="icons-mic"></i>
+                            <a href="https://inoriginal.net/xfsearch/voice/eng/">Eng</a>
+                        </div>
+                        
+                        
+                        <div class="head-sub body-2">
+                            <i class="icons-sub"></i>
+                            <a href="https://inoriginal.net/xfsearch/sub/rus/">Rus</a>, <a href="https://inoriginal.net/xfsearch/sub/eng/">Eng</a>, <a href="https://inoriginal.net/xfsearch/sub/double/">Double</a>
+                        </div>
+                        
+                        
+                        <div class="head-lvl body-2">
+                            
+                            <i class="icons-lvl-medium"></i>
+                            
+                            <span>Сложность лексики - </span>
+                            <a href="https://inoriginal.net/xfsearch/complexity/%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F/">средняя</a>
+                        </div>
+                        
+                    </div>
+                    <div class="head-desc body-2">
+                        <p><span>Кузены отправляются в тур по Польше, чтобы почтить память своей бабушки. Драмеди об исторической памяти с Джесси Айзенбергом и Кираном Калкином</span></p>
+                    </div>
+                    <div class="head-block-btn">
+                        
+                        <div class="play-btn button" onclick="playerjsopen();">
+                            <i class="icons-play"></i>
+                            <span>Смотреть фильм</span>
+                        </div>
+                        
+                        
+                        <div onclick="trailerjsopen();">
+                            <span class="button gray trailer-btn">
+                                <i class="icons-trailer"></i>
+                            </span>
+                        </div>
+                        <div class="fav-content">
+                            <a href="#" class="favmod favblock " data-id="4773" data-favid="1">
+                                <div class="fav-button add button gray"><i class="icons-fav"></i></div>
+                                <div class="fav-button del button gray"><i class="icons-fav-full"></i></div>
+                            </a>
+                        </div>
+
+                        <div class="complaint-content">
+                            <a id="complaint-playerjs" target="_blank" href="https://t.me/inoriginal_support_bot">
+                            <span class="button gray trailer-btn">
+                                <i class="icons-info"></i>
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="full_mov_adv_block">
+                <div class="dle_b_full1" data-dlebid="5" data-dlebviews="yes" data-dlebclicks="yes"></div>
+            </div>
+            <div id="det-tabs" class="content-block">
+                <div class="tabs-nav-container">
+                    <ul class="tabs-nav ui-tabs-nav">
+                        <li class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active">
+                            <a href="#tabs-1">
+                                <h3 class="title-body1">Рекомендации</h3>
+                            </a>
+                        </li>
+                        <li class="ui-tabs-tab ui-tab">
+                            <a href="#tabs-2">
+                                <h3 class="title-body1">Детали</h3>
+                            </a>
+                        </li>
+                        <li class="ui-tabs-tab ui-tab">
+                            <a href="#tabs-3">
+                                <h3 class="title-body1">Коллекции</h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="tabs-1" class="tabs-container">
+                    <div class="body-2 related-content">
+                        
+                        <div class="swiper-cat">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+    
+        <article class="cat-item ">
+        <div class="fav-content">
+            <a href="#" class="favmod favblock " data-id="4773" data-favid="1">
+                <div class="fav-button add gray"><i class="icons-fav"></i></div>
+                <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+            </a>
+        </div>
+        <div class="info">
+            <div class="title">
+                <h2 class="label-3" itemprop="name">Вышка</h2>
+            </div>
+            <div class="rate">
+                
+                <span class='kp caption-3 gray'>6.7</span>
+                
+                
+                <span class='imdb caption-3 gray'>6.4</span>
+                
+                <span class='in caption-3 green' data-rating-score-id="4773">9.0</span>
+            </div>
+            <div class="text">
+                
+                <div class="head-lvl body-2">
+                    
+                    <i class="icons-lvl-medium"></i>
+                    
+                </div>
+                
+                
+                <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2022/">2022</a>
+                    </span>
+                
+                <span class="tags caption-3">
+                        <a href="https://inoriginal.net/genre/thriller/">Триллеры</a>
+                    </span>
+            </div>
+        </div>
+        <div class="date-anounce">
+            
+            
+            
+        </div>
+        <a  href="https://inoriginal.net/films/2477-fall-2022.html" class="link-title">
+        
+        <div class="poster">
+            <img class="xfieldimage poster-mini" data-src="/uploads/posts/2023-12/1701966752_poster.webp" alt="">
+            <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+        </div>
+        
+        </a>
+        </article>
+        
+</div>
+<div class="swiper-slide">
+    
+        <article class="cat-item ">
+        <div class="fav-content">
+            <a href="#" class="favmod favblock " data-id="4773" data-favid="1">
+                <div class="fav-button add gray"><i class="icons-fav"></i></div>
+                <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+            </a>
+        </div>
+        <div class="info">
+            <div class="title">
+                <h2 class="label-3" itemprop="name">Люди в черном 2</h2>
+            </div>
+            <div class="rate">
+                
+                <span class='kp caption-3 green'>7.2</span>
+                
+                
+                <span class='imdb caption-3 gray'>6.2</span>
+                
+                <span class='in caption-3 green' data-rating-score-id="4773">7.0</span>
+            </div>
+            <div class="text">
+                
+                <div class="head-lvl body-2">
+                    <i class="icons-lvl-low"></i>
+                    
+                    
+                </div>
+                
+                
+                <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2002/">2002</a>
+                    </span>
+                
+                <span class="tags caption-3">
+                        <a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/adventures/">Приключения</a><a href="https://inoriginal.net/genre/fiction/">Фантастика</a><a href="https://inoriginal.net/genre/action/">Боевики</a><a href="https://inoriginal.net/genre/detective/">Детективы</a>
+                    </span>
+            </div>
+        </div>
+        <div class="date-anounce">
+            
+            
+            
+        </div>
+        <a  href="https://inoriginal.net/films/1576-men-in-black-2-2002.html" class="link-title">
+        
+        <div class="poster">
+            <img class="xfieldimage poster-mini" data-src="/uploads/posts/2023-06/1685591795_poster.webp" alt="">
+            <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+        </div>
+        
+        </a>
+        </article>
+        
+</div>
+
+
+<div class="swiper-slide">
+    
+        <article class="cat-item ">
+        <div class="fav-content">
+            <a href="#" class="favmod favblock " data-id="4773" data-favid="1">
+                <div class="fav-button add gray"><i class="icons-fav"></i></div>
+                <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+            </a>
+        </div>
+        <div class="info">
+            <div class="title">
+                <h2 class="label-3" itemprop="name">Удивительное путешествие доктора Дулиттла</h2>
+            </div>
+            <div class="rate">
+                
+                <span class='kp caption-3 gray'>6.3</span>
+                
+                
+                <span class='imdb caption-3 gray'>5.6</span>
+                
+                
+            </div>
+            <div class="text">
+                
+                <div class="head-lvl body-2">
+                    <i class="icons-lvl-low"></i>
+                    
+                    
+                </div>
+                
+                
+                <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2020/">2020</a>
+                    </span>
+                
+                <span class="tags caption-3">
+                        <a href="https://inoriginal.net/genre/adventures/">Приключения</a><a href="https://inoriginal.net/genre/fantasy/">Фэнтези</a><a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/family/">Семейное</a>
+                    </span>
+            </div>
+        </div>
+        <div class="date-anounce">
+            
+            
+            
+        </div>
+        <a  href="https://inoriginal.net/films/966-dolittle-2020.html" class="link-title">
+        
+        <div class="poster">
+            <img class="xfieldimage poster-mini" data-src="/uploads/posts/2023-03/1679487993_poster.webp" alt="">
+            <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+        </div>
+        
+        </a>
+        </article>
+        
+</div>
+
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="tabs-2" class="tabs-container" style="display: none;">
+                    <div class="body-2 body-content">
+                        <div class="left-container">
+                            <div class="description">
+                                <div class="desc-block">
+                                    <span class="label-1">Описание</span>
+                                    <div class="body-2 more-p"><p><span>Кузены отправляются в тур по Польше, чтобы почтить память своей любимой бабушки.</span></p></div>
+                                </div>
+                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        </article>
+                        </div>
+                        <div class="right-container">
+                            <div class="description">
+                                <span class="label-1">Информация</span>
+                            </div>
+                            <div class="info-wrapper">
+                                <div class="info-content">
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora">
+                                            <span class="body-2 subtitle-2">Оригинальное название:</span>
+                                            <span class="body-2">A Real Pain</span>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora">
+                                            <span class="body-2 subtitle-2">Год премьеры:</span>
+                                            <span class="body-2"><a href="https://inoriginal.net/xfsearch/years/2024/">2024</a></span>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora">
+                                            <span class="body-2 subtitle-2">Продолжительность:</span>
+                                            <span class="body-2">1 ч 30 мин</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora">
+                                            <span class="body-2 subtitle-2">Жанры:</span>
+                                            <span class="body-2 tags"><a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/comedy/">Комедии</a></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora">
+                                            <span class="body-2 subtitle-2">Страна:</span>
+                                            <span class="body-2"><a href="https://inoriginal.net/xfsearch/country/%D1%81%D1%88%D0%B0/">США</a>, <a href="https://inoriginal.net/xfsearch/country/%D0%BF%D0%BE%D0%BB%D1%8C%D1%88%D0%B0/">Польша</a></span>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora last">
+                                            <span class="body-2 subtitle-2">Возрастное ограничение:</span>
+                                            <span class="body-2">18+</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="info-content">
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora">
+                                            <span class="body-2 subtitle-2">Режиссёр:</span>
+                                            <span class="body-2"><a href="https://inoriginal.net/xfsearch/producer/%D0%B4%D0%B6%D0%B5%D1%81%D1%81%D0%B8%20%D0%B0%D0%B9%D0%B7%D0%B5%D0%BD%D0%B1%D0%B5%D1%80%D0%B3/">Джесси Айзенберг</a></span>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora">
+                                            <span class="body-2 subtitle-2">Актёрский состав:</span>
+                                            <span class="body-2"><a href="https://inoriginal.net/xfsearch/actor/%D0%BA%D0%B8%D1%80%D0%B0%D0%BD%20%D0%BA%D0%B0%D0%BB%D0%BA%D0%B8%D0%BD/">Киран Калкин</a>, <a href="https://inoriginal.net/xfsearch/actor/%D0%B4%D0%B6%D0%B5%D1%81%D1%81%D0%B8%20%D0%B0%D0%B9%D0%B7%D0%B5%D0%BD%D0%B1%D0%B5%D1%80%D0%B3/">Джесси Айзенберг</a>, <a href="https://inoriginal.net/xfsearch/actor/%D0%BE%D0%BB%D1%8C%D0%B3%D0%B0%20%D0%B1%D0%BE%D1%81%D0%BE%D0%B2%D0%B0/">Ольга Босова</a>, <a href="https://inoriginal.net/xfsearch/actor/banner%20eisenberg/">Banner Eisenberg</a>, <a href="https://inoriginal.net/xfsearch/actor/jakub%20gasowski/">Jakub Gasowski</a>, <a href="https://inoriginal.net/xfsearch/actor/%D1%83%D0%B8%D0%BB%D0%BB%20%D1%88%D0%B0%D1%80%D0%BF/">Уилл Шарп</a>, <a href="https://inoriginal.net/xfsearch/actor/%D0%B4%D1%8D%D0%BD%D0%B8%D1%8D%D0%BB%20%D0%BE%D1%80%D0%B5%D1%81%D0%BA%D1%81/">Дэниэл Орескс</a>, <a href="https://inoriginal.net/xfsearch/actor/%D0%BB%D0%B8%D0%B7%D0%B0%20%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D1%8B/">Лиза Садовы</a>, <a href="https://inoriginal.net/xfsearch/actor/%D0%BA%D1%83%D1%80%D1%82%20%D1%8D%D0%B3%D0%B8%D0%B0%D0%B2%D0%B0%D0%BD/">Курт Эгиаван</a>, <a href="https://inoriginal.net/xfsearch/actor/%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D0%B8%D1%84%D0%B5%D1%80%20%D0%B3%D1%80%D0%B5%D0%B9/">Дженнифер Грей</a>, <a href="https://inoriginal.net/xfsearch/actor/%D1%8D%D0%BB%D0%BB%D0%BE%D1%80%D0%B0%20%D1%82%D0%BE%D1%80%D1%87%D0%B8%D1%8F/">Эллора Торчия</a>, <a href="https://inoriginal.net/xfsearch/actor/piotr%20czarniecki/">Piotr Czarniecki</a>, <a href="https://inoriginal.net/xfsearch/actor/krzysztof%20jaszczak/">Krzysztof Jaszczak</a>, <a href="https://inoriginal.net/xfsearch/actor/%D0%BC%D0%B0%D1%80%D0%B5%D0%BA%20%D0%BA%D0%B0%D1%81%D0%BF%D1%88%D0%B8%D0%BA/">Марек Каспшик</a>, <a href="https://inoriginal.net/xfsearch/actor/jakub%20pruski/">Jakub Pruski</a>, <a href="https://inoriginal.net/xfsearch/actor/mateusz%20ruminski/">Mateusz Ruminski</a></span>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora">
+                                            <span class="body-2 subtitle-2">Аудиодорожка:</span>
+                                            <span class="body-2"><a href="https://inoriginal.net/xfsearch/voice/eng/">Eng</a></span>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora">
+                                            <span class="body-2 subtitle-2">Субтитры:</span>
+                                            <span class="body-2"><a href="https://inoriginal.net/xfsearch/sub/rus/">Rus</a>, <a href="https://inoriginal.net/xfsearch/sub/eng/">Eng</a>, <a href="https://inoriginal.net/xfsearch/sub/double/">Double</a></span>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora">
+                                            <span class="body-2 subtitle-2">IMDB:</span>
+                                            <span class="body-2">7.4</span>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="info-block">
+                                        <div class="block scora last">
+                                            <span class="body-2 subtitle-2">Кинопоиск:</span>
+                                            <span class="body-2">7.1</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+            </article>
+                    </div>
+                </div>
+                <div id="tabs-3" class="tabs-container" style="display: none;">
+                    <div class="body-2 collection-content">
+                        <div class="swiper-gc">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/new-year/" class="link-title"><div class="poster"><img data-src="/uploads/icons/new-year.webp" alt="Новый год"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/harry-potter/" class="link-title"><div class="poster"><img data-src="/uploads/icons/harry-potter.webp" alt="Гарри Поттер"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/dune/" class="link-title"><div class="poster"><img data-src="/uploads/icons/dune-2.webp" alt="Дюна"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/barbie/" class="link-title"><div class="poster"><img data-src="/uploads/icons/barbie-collection-min.webp" alt="Барби"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/shrek/" class="link-title"><div class="poster"><img data-src="/uploads/icons/shrek.webp" alt="Шрек"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/game-of-thrones-collection/" class="link-title"><div class="poster"><img data-src="/uploads/icons/game-of-thrones-icon.webp" alt="Игра Престолов / Дом Дракона"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/pirates-of-the-caribbean/" class="link-title"><div class="poster"><img data-src="/uploads/icons/pirates-of-the-caribbean.webp" alt="Пираты карибского моря"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/deadpool-collection/" class="link-title"><div class="poster"><img data-src="/uploads/icons/deadpool.webp" alt="Дэдпул"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/madagascar/" class="link-title"><div class="poster"><img data-src="/uploads/icons/madagascar.webp" alt="Мадагаскар"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/guardians/" class="link-title"><div class="poster"><img data-src="/uploads/icons/guardians-galaxy.webp" alt="Стражи галактики"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/spider-man/" class="link-title"><div class="poster"><img data-src="/uploads/icons/spider-man.webp" alt="Человек паук"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/cars/" class="link-title"><div class="poster"><img data-src="/uploads/icons/cars.webp" alt="Тачки"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/godfather/" class="link-title"><div class="poster"><img data-src="/uploads/icons/godgather.webp" alt="Крестный отец"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/indiana-jones/" class="link-title"><div class="poster"><img data-src="/uploads/icons/indiana-jones.webp" alt="Индиана Джонс"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/kill-bill/" class="link-title"><div class="poster"><img data-src="/uploads/icons/kill-bill.webp" alt="Убить Билла"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/james-bond-007/" class="link-title"><div class="poster"><img data-src="/uploads/icons/007.webp" alt="Джеймс Бонд"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/the-lord-of-the-rings/" class="link-title"><div class="poster"><img data-src="/uploads/icons/the-lord-of-the-rings.webp" alt="Властелин Колец"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/lion-king/" class="link-title"><div class="poster"><img data-src="/uploads/icons/lion-king.webp" alt="Король Лев"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/home-alone-collection/" class="link-title"><div class="poster"><img data-src="/uploads/icons/home-alone-icon.webp" alt="Один дома"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/batman/" class="link-title"><div class="poster"><img data-src="/uploads/icons/batman.webp" alt="Бэтмен"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/alvin-and-chipmunks/" class="link-title"><div class="poster"><img data-src="/uploads/icons/alvin-chiphunks.webp" alt="Элвин и бурундуки"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/matrix/" class="link-title"><div class="poster"><img data-src="/uploads/icons/matrix.webp" alt="Матрица"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/x-men/" class="link-title"><div class="poster"><img data-src="/uploads/icons/x-men.webp" alt="Люди Икс"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/minions/" class="link-title"><div class="poster"><img data-src="/uploads/icons/minions.webp" alt="Миньоны"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/twilight/" class="link-title"><div class="poster"><img data-src="/uploads/icons/twilight.webp" alt="Сумерки"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/monsters-inc/" class="link-title"><div class="poster"><img data-src="/uploads/icons/monsters-inc.webp" alt="Корпорация монстров"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/the-hunger-games/" class="link-title"><div class="poster"><img data-src="/uploads/icons/the-hunger-games.webp" alt="Голодные игры"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/divergent/" class="link-title"><div class="poster"><img data-src="/uploads/icons/divergent.webp" alt="Дивергент"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/resident-evil/" class="link-title"><div class="poster"><img data-src="/uploads/icons/resident-evil.webp" alt="Обитель зла"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/fifty-shades-of-grey/" class="link-title"><div class="poster"><img data-src="/uploads/icons/fifty-shades.webp" alt="Пятьдесят оттенков серого"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/fast-and-furious/" class="link-title"><div class="poster"><img data-src="/uploads/icons/fast-and-furious.webp" alt="Форсаж"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/mission-impossible/" class="link-title"><div class="poster"><img data-src="/uploads/icons/mission-impossible.webp" alt="Миссия невыполнима"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+<div class="swiper-slide"><article class="genre-item"><a href="https://inoriginal.net/selection/men-in-black/" class="link-title"><div class="poster"><img data-src="/uploads/icons/men-in-black.webp" alt="Люди в черном"><img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/gen-preloader.png"></div></a></article></div>
+
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tabs-4" class="tabs-container" style="display: none;">
+                    <div class="body-2 reviews-content">
+                        <form method="post" name="dlemasscomments" id="dlemasscomments" style="padding: 0;">
+                            <div class="swiper-reviews">
+                                <div class="swiper-wrapper">
+                                    
+<div id="dle-ajax-comments"></div>
+
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="body-2 body-reviews">
+                        <div class="left-container">
+                            
+                            <div class="rate_stars">
+                                <div class="rate-header">
+                                    <div class="rate-title">
+                                        <span class="label-1">Поставьте оценку</span>
+                                        <p class="body-2">
+                                            Ваша оценка может помочь другим
+                                        </p>
+                                    </div>
+                                    <div class="rate-score">
+                                        <h2 data-rating-score-id="4773">6.3</h2>
+                                        <span class="body-2"><span data-vote-num-id="4773">3 оценки</span></span>
+                                    </div>
+                                </div>
+                                <div data-rating-layer-id='4773'>
+    <div class="rating">
+        <ul class="stars-rating"><li><a href='#' class='stars1 ' onmouseover='highlightStars(this, 1)' onmouseout='resetStars(this)' onclick='doRate("1", "4773"); return false;'><span>1</span></a></li><li><a href='#' class='stars2 ' onmouseover='highlightStars(this, 2)' onmouseout='resetStars(this)' onclick='doRate("2", "4773"); return false;'><span>2</span></a></li><li><a href='#' class='stars3 ' onmouseover='highlightStars(this, 3)' onmouseout='resetStars(this)' onclick='doRate("3", "4773"); return false;'><span>3</span></a></li><li><a href='#' class='stars4 ' onmouseover='highlightStars(this, 4)' onmouseout='resetStars(this)' onclick='doRate("4", "4773"); return false;'><span>4</span></a></li><li><a href='#' class='stars5 ' onmouseover='highlightStars(this, 5)' onmouseout='resetStars(this)' onclick='doRate("5", "4773"); return false;'><span>5</span></a></li><li><a href='#' class='stars6 ' onmouseover='highlightStars(this, 6)' onmouseout='resetStars(this)' onclick='doRate("6", "4773"); return false;'><span>6</span></a></li><li><a href='#' class='stars7 ' onmouseover='highlightStars(this, 7)' onmouseout='resetStars(this)' onclick='doRate("7", "4773"); return false;'><span>7</span></a></li><li><a href='#' class='stars8 ' onmouseover='highlightStars(this, 8)' onmouseout='resetStars(this)' onclick='doRate("8", "4773"); return false;'><span>8</span></a></li><li><a href='#' class='stars9 ' onmouseover='highlightStars(this, 9)' onmouseout='resetStars(this)' onclick='doRate("9", "4773"); return false;'><span>9</span></a></li><li><a href='#' class='stars10 ' onmouseover='highlightStars(this, 10)' onmouseout='resetStars(this)' onclick='doRate("10", "4773"); return false;'><span>10</span></a></li>        </ul>
+    </div>
+</div>
+                            </div>
+                            
+                            
+                            <div class="description reviews">
+                                <span class="label-1">Оставить своё мнение о фильме</span>
+                            </div>
+                            
+                            <div class="review-block">
+                                <form  method="post" name="dle-comments-form" id="dle-comments-form" >
+<div id="addcomment" class="addreviews">
+    <textarea name="comments" id="comments" placeholder="Напишите свое мнение"></textarea>
+    <div class="form_submit">
+        <button class="btn btn-big" type="submit" name="submit" title="Отправить комментарий"><b>Отправить отзыв</b></button>
+    </div>
+</div>
+
+		<input type="hidden" name="subaction" value="addcomment"><input type="hidden" name="name" id="name" value="Алмаз Низамов_3"><input type="hidden" name="mail" id="mail" value="">
+		<input type="hidden" name="post_id" id="post_id" value="4773"><input type="hidden" name="user_hash" value="ccd22327eb1b68a20af9cae06890a8760f31a54f"></form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+            </div>
+        </article>
+    </div>
+    </article>
+    </div>
+        </div>
+        </main>
+        <!--Main layout-->
+        <!--Footer-->
+            <div id="scroll_top" style="opacity:0">
+                <a id="scroll_top_btn" href="#" title="Наверх"><i class="icons-top"></i></a>
+            </div>
+	    </div>
+    </body>
+</html>

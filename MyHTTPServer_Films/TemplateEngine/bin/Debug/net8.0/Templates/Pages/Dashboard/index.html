@@ -1,0 +1,1773 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Фильмы на английском с субтитрами</title>
+    <meta name="charset" content="utf-8">
+    <meta name="title" content="Фильмы на английском с субтитрами">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Russian">
+    <link rel="stylesheet" href="css/styles.css" as="style">
+
+    <!-- Theme Settings -->
+
+    <!-- ViewPort -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0, minimum-scale=0.86">
+    <meta content="true" name="HandheldFriendly">
+    <meta content="width" name="MobileOptimized">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+</head>
+
+<body>
+
+    <!--Main Navigation-->
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="container">
+    <!--Logo-->
+    <div class="left">
+        <div class="logo">
+            <a href="index.html">
+                <i class="icons-logo-animate"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="right">
+        <!--Navigation-->
+        <nav class="top_menu">
+            <div class="top_menu_content">
+                <div class="link_menu">
+                    <a href="https://inoriginal.net/lastnews.html" >
+                        <span class="body-1">Новинки</span>
+                    </a>
+                </div>
+                <div class="link_menu">
+                    <a href="index.html" class="active">
+                        <span class="body-1">Фильмы</span>
+                    </a>
+                </div>
+                <div class="link_menu">
+                    <a href="https://inoriginal.net/series/" >
+                        <span class="body-1">Сериалы</span>
+                    </a>
+                </div>
+                <div class="link_menu">
+                    <a href="https://inoriginal.net/genre/" >
+                        <span class="body-1">Жанры</span>
+                    </a>
+                </div>
+                <div class="link_menu">
+                    <a href="https://inoriginal.net/studios/" >
+                        <span class="body-1">Студии</span>
+                    </a>
+                </div>
+                <div class="link_menu">
+                    <a href="https://inoriginal.net/selection/" >
+                        <span class="body-1">Коллекции</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!--Profile-->
+        <div class="acc-block">
+            <div class="search_block">
+                <a class="search_but">
+                    <i class="icons-search"></i>
+                </a>
+            </div>
+            <div class="separator"></div>
+            <div class="fav_block">
+                <div class="fav-count" id="favorite_count" style="display: none">
+                    0
+                </div>
+                <a href="https://inoriginal.net/favorites" class="fav_but fav-but-header">
+                    <i class="icons-fav"></i>
+                </a>
+            </div>
+            <div class="dic_block">
+                <div class="dic-count" id="dictionary_count" style="display: none">
+                    0
+                </div>
+                <a href="https://inoriginal.net/dictionary" class="dic_but dic-but-header">
+                    <i class="icons-dic"></i>
+                </a>
+            </div>
+            <div className=" login">
+                <a href="login" id="auth_link" class="button medium">
+                    <i class="icons-login"></i>
+                    Войти
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <!--Main layout-->
+        <main>
+        
+
+        
+        <div class="container">
+        
+<div class="cat-title cat-page mobile-title-cat">
+    <h1>
+        Фильмы
+        <span class="catnewscount" id="category-count">154 строчка</span>
+    </h1>
+
+    <div class="filters">
+        <!-- Фильтр -->
+        <div onclick="headerDropdownFilter();" class="dropfilter">
+            <div class="filter_btn" id="filterBtnDropdown">
+                <span>Фильтры</span>
+            </div>
+            <div class="dropdown-filter-content" id="filterDropdown">
+                <form data-dlefilter="dle-filter" data-dlefilter-id="dle-content" id="dle-filter" onclick="headerDropdownFilterform();">
+                    <!-- Категория для новинок -->
+                    <!-- Категория -->
+                    <!-- Список жанров -->
+                    <select name="o.cat" id="genre" autocomplete="off">
+                        <option value="15">Детективы</option>
+                        <option value="16">Триллеры</option>
+                        <option value="18">Комедии</option>
+                        <option value="19">Фантастика</option>
+                        <option value="20">Боевики</option>
+                        <option value="21">Мелодрамы</option>
+                        <option value="22">Драмы</option>
+                        <option value="23">Семейное</option>
+                        <option value="24">Криминальное</option>
+                        <option value="25">Спорт</option>
+                        <option value="26">Военное</option>
+                        <option value="27">Биографии</option>
+                        <option value="28">Ужасы</option>
+                        <option value="29">Историческое</option>
+                        <option value="30">Мюзиклы</option>
+                        <option value="31">Документальное</option>
+                        <option value="32">Мультфильмы</option>
+                        <option value="33">Вестерны</option>
+                        <option value="40">Аниме</option>
+                        <option value="41">Приключения</option>
+                        <option value="42">Фэнтези</option>
+                    </select>
+                    
+                    <!-- Кнопка очистить -->
+                    <label class="clear_filter">
+                        <input type="button" class="button small" data-dlefilter="reset" id="button-clear" value="Сбросить все">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <!-- Фильтр конец -->
+    </div>
+</div>
+
+
+<!-- Скрипты фильтра -->
+
+
+
+
+
+<div class="full_cat_adv_block">
+    <div class="dle_b_cat1" data-dlebid="7" data-dlebviews="yes" data-dlebclicks="yes" >
+        <script>
+            window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.render({
+		"blockId": "R-A-7202222-2",
+		"renderTo": "yandex_rtb_R-A-7202222-2"
+    })
+    })
+        </script>
+    </div>
+</div>
+<section class="cat-grid ">
+    <div id="dle-content">
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4773" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+
+    <!--Фильмы-->
+    <div class="info">
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Настоящая боль</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.1</span>
+            
+            
+            <span class='imdb caption-3 green'>7.4</span>
+            
+            <span class='in caption-3 gray' data-rating-score-id="4773">6.3</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/comedy/">Комедии</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4773-a-real-pain-2024.html" class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" href="/Public/img/1_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4770" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Властелин колец: Война рохирримов</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 gray'>6.4</span>
+            
+            
+            <span class='imdb caption-3 gray'>6.5</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4770">8.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/action/">Боевики</a><a href="https://inoriginal.net/genre/fantasy/">Фэнтези</a><a href="https://inoriginal.net/genre/cartoons/">Мультфильмы</a><a href="https://inoriginal.net/genre/anime/">Аниме</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4770-the-lord-of-the-rings-the-war-of-the-rohirrim-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2025-01/poster3.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4772" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Миссия: Красный</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 gray'>6.6</span>
+            
+            
+            <span class='imdb caption-3 gray'>6.9</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4772">8.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/detective/">Детективы</a><a href="https://inoriginal.net/genre/adventures/">Приключения</a><a href="https://inoriginal.net/genre/action/">Боевики</a><a href="https://inoriginal.net/genre/fantasy/">Фэнтези</a><a href="https://inoriginal.net/genre/comedy/">Комедии</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4772-red-one-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2025-01/1736184058_poster3.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4769" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Злая: Сказка о ведьме Запада</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.3</span>
+            
+            
+            <span class='imdb caption-3 green'>7.9</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4769">8.5</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a><a href="https://inoriginal.net/genre/fantasy/">Фэнтези</a><a href="https://inoriginal.net/genre/music/">Мюзиклы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4769-wicked-part-1-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2025-01/poster2.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4747" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Язык нежности</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.3</span>
+            
+            
+            <span class='imdb caption-3 green'>7.4</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4747">7.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1983/">1983</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/drama/">Драмы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4747-terms-of-endearment-1983.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733657932_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4749" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Золотая молодежь</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 gray'>6.9</span>
+            
+            
+            <span class='imdb caption-3 gray'>6.5</span>
+            
+            
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2003/">2003</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/warmovies/">Военное</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4749-bright-young-things-2003.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733676778_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4768" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Уоллес и Громит: Самая дикая месть</h2>
+        </div>
+        <div class="rate">
+            
+            
+            <span class='imdb caption-3 green'>8.0</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4768">10.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                <i class="icons-lvl-low"></i>
+                
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/adventures/">Приключения</a><a href="https://inoriginal.net/genre/fiction/">Фантастика</a><a href="https://inoriginal.net/genre/family/">Семейное</a><a href="https://inoriginal.net/genre/cartoons/">Мультфильмы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4768-wallace-gromit-vengeance-most-fowl-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1735326797_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4767" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Ручная кладь</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 gray'>6.5</span>
+            
+            
+            <span class='imdb caption-3 gray'>6.5</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4767">7.6</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/thriller/">Триллеры</a><a href="https://inoriginal.net/genre/action/">Боевики</a><a href="https://inoriginal.net/genre/crime/">Криминальное</a><a href="https://inoriginal.net/genre/detective/">Детективы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4767-carry-on-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1735325363_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4745" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Роман с камнем</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.7</span>
+            
+            
+            <span class='imdb caption-3 gray'>6.9</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4745">9.3</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1984/">1984</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a><a href="https://inoriginal.net/genre/adventures/">Приключения</a><a href="https://inoriginal.net/genre/comedy/">Комедии</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4745-romancing-the-stone-1984.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733656645_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4740" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Поездка в Америку</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.7</span>
+            
+            
+            <span class='imdb caption-3 green'>7.1</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4740">8.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1988/">1988</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a><a href="https://inoriginal.net/genre/comedy/">Комедии</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4740-coming-to-america-1988.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733649954_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4742" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Во власти Луны</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.3</span>
+            
+            
+            <span class='imdb caption-3 green'>7.2</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4742">10.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1987/">1987</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4742-moonstruck-1987.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733653152_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4746" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Колдун</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.3</span>
+            
+            
+            <span class='imdb caption-3 green'>7.7</span>
+            
+            
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1977/">1977</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/thriller/">Триллеры</a><a href="https://inoriginal.net/genre/drama/">Драмы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4746-sorcerer-1977.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733657136_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4754" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Последнее танго в Париже</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.4</span>
+            
+            
+            <span class='imdb caption-3 gray'>6.8</span>
+            
+            
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                
+                <i class="icons-lvl-high"></i>
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1972/">1972</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a><a href="https://inoriginal.net/genre/drama/">Драмы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4754-last-tango-in-paris-1972.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733779108_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4765" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Гладиатор 2</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 gray'>6.5</span>
+            
+            
+            <span class='imdb caption-3 green'>7.1</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4765">7.5</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/action/">Боевики</a><a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/adventures/">Приключения</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4765-gladiator-2-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1734849680_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4764" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Звуки музыки</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>8.0</span>
+            
+            
+            <span class='imdb caption-3 green'>8.1</span>
+            
+            
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                <i class="icons-lvl-low"></i>
+                
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1965/">1965</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a><a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/family/">Семейное</a><a href="https://inoriginal.net/genre/biography/">Биографии</a><a href="https://inoriginal.net/genre/music/">Мюзиклы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4764-the-sound-of-music-1965.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1734619573_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="1784" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Из Африки</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.5</span>
+            
+            
+            <span class='imdb caption-3 green'>7.1</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="1784">7.5</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1985/">1985</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a><a href="https://inoriginal.net/genre/biography/">Биографии</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/1784-out-of-africa-1985.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2023-06/1687950503_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4763" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Мелочи жизни</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 gray'>6.3</span>
+            
+            
+            <span class='imdb caption-3 green'>7.2</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4763">7.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/history/">Историческое</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4763-small-things-like-these-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1734549504_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="1785" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Мосты округа Мэдисон</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.9</span>
+            
+            
+            <span class='imdb caption-3 green'>7.6</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="1785">9.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                <i class="icons-lvl-low"></i>
+                
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1995/">1995</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/1785-the-bridges-of-madison-county-1995.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2023-06/1687950820_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4761" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Анора</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.4</span>
+            
+            
+            <span class='imdb caption-3 green'>8.2</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4761">7.6</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a><a href="https://inoriginal.net/genre/drama/">Драмы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4761-anora-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1734523933_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4753" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Амадей</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>8.1</span>
+            
+            
+            <span class='imdb caption-3 green'>8.4</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4753">10.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1984/">1984</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/biography/">Биографии</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4753-amadeus-1984.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733778469_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4755" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Деловая женщина</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.2</span>
+            
+            
+            <span class='imdb caption-3 gray'>6.8</span>
+            
+            
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1988/">1988</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a><a href="https://inoriginal.net/genre/drama/">Драмы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4755-working-girl-1988.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733779596_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4760" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Рыжий пес</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.8</span>
+            
+            
+            <span class='imdb caption-3 green'>7.3</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4760">10.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2011/">2011</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a><a href="https://inoriginal.net/genre/biography/">Биографии</a><a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/family/">Семейное</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4760-red-dog-2011.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1734250354_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4741" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Крокодил Данди</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.1</span>
+            
+            
+            <span class='imdb caption-3 gray'>6.6</span>
+            
+            
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                <i class="icons-lvl-low"></i>
+                
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/1986/">1986</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/adventures/">Приключения</a><a href="https://inoriginal.net/genre/action/">Боевики</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4741-crocodile-dundee-1986.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733651688_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4756" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Еретик</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 gray'>6.7</span>
+            
+            
+            <span class='imdb caption-3 green'>7.2</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4756">7.4</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/thriller/">Триллеры</a><a href="https://inoriginal.net/genre/horror/">Ужасы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4756-heretic-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1734116504_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4752" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Рождественские хроники</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.1</span>
+            
+            
+            <span class='imdb caption-3 green'>7.0</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4752">7.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                <i class="icons-lvl-low"></i>
+                
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2018/">2018</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/adventures/">Приключения</a><a href="https://inoriginal.net/genre/family/">Семейное</a><a href="https://inoriginal.net/genre/fantasy/">Фэнтези</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4752-the-christmas-chronicles-2018.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733778093_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4737" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Присяжный номер два</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 gray'>6.8</span>
+            
+            
+            <span class='imdb caption-3 green'>7.1</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4737">8.7</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/thriller/">Триллеры</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4737-juror-2-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733643389_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4751" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">То Рождество</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.2</span>
+            
+            
+            <span class='imdb caption-3 gray'>6.8</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4751">9.8</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                <i class="icons-lvl-low"></i>
+                
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/comedy/">Комедии</a><a href="https://inoriginal.net/genre/adventures/">Приключения</a><a href="https://inoriginal.net/genre/family/">Семейное</a><a href="https://inoriginal.net/genre/fantasy/">Фэнтези</a><a href="https://inoriginal.net/genre/cartoons/">Мультфильмы</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4751-that-christmas-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733777571_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+
+    <article class="cat-item ">
+    <div class="fav-content">
+        <a href="#" class="favmod favblock " data-id="4736" data-favid="1">
+            <div class="fav-button add gray"><i class="icons-fav"></i></div>
+            <div class="fav-button del gray"><i class="icons-fav-full"></i></div>
+        </a>
+    </div>
+    <div class="info">
+        
+        
+        <div class="title">
+            <h2 class="label-3" itemprop="name">Девушка и море</h2>
+        </div>
+        <div class="rate">
+            
+            <span class='kp caption-3 green'>7.7</span>
+            
+            
+            <span class='imdb caption-3 green'>7.6</span>
+            
+            <span class='in caption-3 green' data-rating-score-id="4736">10.0</span>
+        </div>
+        <div class="text">
+            
+            <div class="head-lvl body-2">
+                
+                <i class="icons-lvl-medium"></i>
+                
+            </div>
+            
+            
+            <span class="year caption-3">
+                        <a href="https://inoriginal.net/xfsearch/years/2024/">2024</a>
+                    </span>
+            
+            <span class="tags caption-3">
+                <a href="https://inoriginal.net/genre/melodrama/">Мелодрамы</a><a href="https://inoriginal.net/genre/drama/">Драмы</a><a href="https://inoriginal.net/genre/sport/">Спорт</a><a href="https://inoriginal.net/genre/biography/">Биографии</a>
+            </span>
+        </div>
+    </div>
+    <div class="date-anounce">
+        
+        
+    </div>
+    <a  href="https://inoriginal.net/films/4736-young-woman-and-the-sea-2024.html
+    " class="link-title">
+    
+    <div class="poster">
+        <img class="xfieldimage poster-mini" data-src="/uploads/posts/2024-12/1733642569_poster.webp" alt="">
+        <img class="cat-preloader" src="/templates/inoriginal-c633d74550/assets/img/cat-preloader.png">
+    </div>
+    
+    </a>
+    </article>
+    
+<!--ENGINE_NAVIGATION--><div class="navigation">
+    <span>
+        <div class="page_prev">
+            <span title="Предыдущая страница">
+                <i class="icon-prev"></i>
+            </span>
+        </div>
+    </span>
+    <div class="pages"><span>1</span> <a href="https://inoriginal.net/films/page/2/">2</a> <a href="https://inoriginal.net/films/page/3/">3</a> <a href="https://inoriginal.net/films/page/4/">4</a> <a href="https://inoriginal.net/films/page/5/">5</a> <span class="nav_ext">...</span> <a href="https://inoriginal.net/films/page/84/">84</a></div>
+    <a href="https://inoriginal.net/films/page/2/">
+        <div class="page_next">
+            <span title="Следующая страница">
+                <i class="icon-next"></i>
+            </span>
+        </div>
+    </a>
+</div>
+    </div>
+</section>
+        </div>
+        </main>
+    </div>
+</body>
+</html>

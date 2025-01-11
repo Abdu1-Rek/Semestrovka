@@ -1,0 +1,13 @@
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.deps.json
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.dll
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.pdb
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.csproj.AssemblyReference.cache
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.AssemblyInfoInputs.cache
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.AssemblyInfo.cs
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.csproj.CoreCompileInputs.cache
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.sourcelink.json
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.dll
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/refint/MyORMLibrary.dll
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.pdb
+/Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/ref/MyORMLibrary.dll
