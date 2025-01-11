@@ -12,7 +12,7 @@ public class IndexEndpoint : BaseEndPoint
     public IHttpResponceResult GetIndex()
     {
         // Чтение основного HTML-шаблона
-        var filePath = @"MyHTTPServer/Templates/Pages/Dashboard/index.html";
+        var filePath = @"Templates/Pages/Dashboard/index.html";
         var fileContent = File.ReadAllText(filePath);
 
         // Получение данных из базы

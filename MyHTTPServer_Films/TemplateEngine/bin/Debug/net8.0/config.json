@@ -1,5 +1,5 @@
 ﻿{
   "Domain": "localhost",
   "Port": 6529,
-  "StaticDirectoryPath": "public/ltr/assets"
+  "StaticDirectoryPath": "MyHTTPServer/public/ltr/assets"
 }

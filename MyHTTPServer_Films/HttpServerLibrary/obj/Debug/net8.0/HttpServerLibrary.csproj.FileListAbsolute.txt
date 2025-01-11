@@ -12,3 +12,17 @@
 /Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/refint/HttpServerLibrary.dll
 /Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.pdb
 /Users/almaz_nizamov/Downloads/MyHTTPServer_Films/HttpServerLibrary/obj/Debug/net8.0/ref/HttpServerLibrary.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\bin\Debug\net8.0\HTTPServer.cs
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\bin\Debug\net8.0\HttpServerLibrary.deps.json
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\bin\Debug\net8.0\HttpServerLibrary.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\bin\Debug\net8.0\HttpServerLibrary.pdb
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\obj\Debug\net8.0\HttpServerLibrary.csproj.AssemblyReference.cache
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\obj\Debug\net8.0\HttpServerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\obj\Debug\net8.0\HttpServerLibrary.AssemblyInfoInputs.cache
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\obj\Debug\net8.0\HttpServerLibrary.AssemblyInfo.cs
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\obj\Debug\net8.0\HttpServerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\obj\Debug\net8.0\HttpServerLibrary.sourcelink.json
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\obj\Debug\net8.0\HttpServerLibrary.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\obj\Debug\net8.0\refint\HttpServerLibrary.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\obj\Debug\net8.0\HttpServerLibrary.pdb
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\HttpServerLibrary\obj\Debug\net8.0\ref\HttpServerLibrary.dll

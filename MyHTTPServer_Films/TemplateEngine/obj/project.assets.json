@@ -1831,33 +1831,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/almaz_nizamov/.nuget/packages/": {}
+    "C:\\Users\\timer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj",
+      "projectUniqueName": "C:\\Users\\timer\\OneDrive\\Рабочий стол\\УДАЛИТЬ!!!\\semestrovka-nizamov\\MyHTTPServer_Films\\TemplateEngine\\TemplateEngine.csproj",
       "projectName": "TemplateEngine",
-      "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj",
-      "packagesPath": "/Users/almaz_nizamov/.nuget/packages/",
-      "outputPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngine/obj/",
+      "projectPath": "C:\\Users\\timer\\OneDrive\\Рабочий стол\\УДАЛИТЬ!!!\\semestrovka-nizamov\\MyHTTPServer_Films\\TemplateEngine\\TemplateEngine.csproj",
+      "packagesPath": "C:\\Users\\timer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\timer\\OneDrive\\Рабочий стол\\УДАЛИТЬ!!!\\semestrovka-nizamov\\MyHTTPServer_Films\\TemplateEngine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/almaz_nizamov/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\timer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj": {
-              "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj"
+            "C:\\Users\\timer\\OneDrive\\Рабочий стол\\УДАЛИТЬ!!!\\semestrovka-nizamov\\MyHTTPServer_Films\\MyHTTPServer\\MyHTTPServer.csproj": {
+              "projectPath": "C:\\Users\\timer\\OneDrive\\Рабочий стол\\УДАЛИТЬ!!!\\semestrovka-nizamov\\MyHTTPServer_Films\\MyHTTPServer\\MyHTTPServer.csproj"
             }
           }
         }
@@ -1892,7 +1893,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -11,3 +11,16 @@
 /Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/refint/MyORMLibrary.dll
 /Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.pdb
 /Users/almaz_nizamov/Downloads/MyHTTPServer_Films/MyORMLibrary/obj/Debug/net8.0/ref/MyORMLibrary.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\bin\Debug\net8.0\MyORMLibrary.deps.json
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\bin\Debug\net8.0\MyORMLibrary.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\bin\Debug\net8.0\MyORMLibrary.pdb
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.csproj.AssemblyReference.cache
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.AssemblyInfoInputs.cache
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.AssemblyInfo.cs
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.csproj.CoreCompileInputs.cache
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.sourcelink.json
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\obj\Debug\net8.0\refint\MyORMLibrary.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.pdb
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\MyORMLibrary\obj\Debug\net8.0\ref\MyORMLibrary.dll

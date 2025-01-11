@@ -67,3 +67,36 @@ C:/Users/bulat-laptop/Downloads/MyHTTPServer/TemplateEngine/bin/Debug/net8.0/MyO
 /Users/almaz_nizamov/Downloads/MyHTTPServer_Films/TemplateEngine/obj/Debug/net8.0/refint/TemplateEngine.dll
 /Users/almaz_nizamov/Downloads/MyHTTPServer_Films/TemplateEngine/obj/Debug/net8.0/TemplateEngine.pdb
 /Users/almaz_nizamov/Downloads/MyHTTPServer_Films/TemplateEngine/obj/Debug/net8.0/ref/TemplateEngine.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\MyHTTPServer.deps.json
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\MyHTTPServer.runtimeconfig.json
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\MyHTTPServer.exe
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\HTTPServer.cs
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\Program.cs
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\services\IMailService.cs
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\services\MailService.cs
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\config.json
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\public\ltr\assets\css\styles.css
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\public\ltr\assets\index.html
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\public\ltr\assets\login.html
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\Templates\Pages\Auth\login.html
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\Templates\Pages\Dashboard\index.html
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\TemplateEngine.deps.json
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\TemplateEngine.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\TemplateEngine.pdb
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\HttpServerLibrary.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\MyHTTPServer.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\MyORMLibrary.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\MyHTTPServer.pdb
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\HttpServerLibrary.pdb
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\bin\Debug\net8.0\MyORMLibrary.pdb
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\obj\Debug\net8.0\TemplateEngine.csproj.AssemblyReference.cache
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\obj\Debug\net8.0\TemplateEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\obj\Debug\net8.0\TemplateEngine.AssemblyInfoInputs.cache
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\obj\Debug\net8.0\TemplateEngine.AssemblyInfo.cs
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\obj\Debug\net8.0\TemplateEngine.csproj.CoreCompileInputs.cache
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\obj\Debug\net8.0\TemplateEngine.sourcelink.json
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\obj\Debug\net8.0\Template.7B7FEE16.Up2Date
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\obj\Debug\net8.0\TemplateEngine.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\obj\Debug\net8.0\refint\TemplateEngine.dll
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\obj\Debug\net8.0\TemplateEngine.pdb
+C:\Users\timer\OneDrive\Рабочий стол\УДАЛИТЬ!!!\semestrovka-nizamov\MyHTTPServer_Films\TemplateEngine\obj\Debug\net8.0\ref\TemplateEngine.dll

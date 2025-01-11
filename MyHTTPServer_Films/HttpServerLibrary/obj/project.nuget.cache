@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "oCN53sptKVmzrdnQaLIwLjzQApuh0C7Tz0+zD0fUQT2s1/OmxOzzzjEbOC75JmwHAWk7+2DhjeXAtVKpSkvvow==",
+  "dgSpecHash": "AWFbkp9W+8Ha6KIImYwm5P6zE/OdlPjafXgGKuDQ81WZ5LuMTRvKewsO1BRyTRki8kvDKP+7wqWfBGBhCmBScA==",
   "success": true,
-  "projectFilePath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj",
+  "projectFilePath": "C:\\Users\\timer\\OneDrive\\Рабочий стол\\УДАЛИТЬ!!!\\semestrovka-nizamov\\MyHTTPServer_Films\\HttpServerLibrary\\HttpServerLibrary.csproj",
   "expectedPackageFiles": [
-    "/Users/almaz_nizamov/.nuget/packages/stub.system.data.sqlite.core.netstandard/1.0.119/stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
-    "/Users/almaz_nizamov/.nuget/packages/system.data.sqlite.core/1.0.119/system.data.sqlite.core.1.0.119.nupkg.sha512"
+    "C:\\Users\\timer\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.119\\stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
+    "C:\\Users\\timer\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512"
   ],
   "logs": []
 }
