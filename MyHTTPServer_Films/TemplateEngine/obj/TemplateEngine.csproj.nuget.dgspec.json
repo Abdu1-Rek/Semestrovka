@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj": {}
+    "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj": {}
   },
   "projects": {
-    "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj": {
+    "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj",
+        "projectUniqueName": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj",
         "projectName": "HttpServerLibrary",
-        "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj",
+        "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj",
         "packagesPath": "/Users/almaz_nizamov/.nuget/packages/",
-        "outputPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/obj/",
+        "outputPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/almaz_nizamov/.nuget/NuGet/NuGet.Config"
@@ -33,6 +33,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -64,14 +69,14 @@
         }
       }
     },
-    "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj": {
+    "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj",
+        "projectUniqueName": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj",
         "projectName": "MyHTTPServer",
-        "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj",
+        "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj",
         "packagesPath": "/Users/almaz_nizamov/.nuget/packages/",
-        "outputPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyHTTPServer/obj/",
+        "outputPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyHTTPServer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/almaz_nizamov/.nuget/NuGet/NuGet.Config"
@@ -87,11 +92,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj": {
-                "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj"
+              "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj": {
+                "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj"
               },
-              "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj": {
-                "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj"
+              "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj": {
+                "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj"
               }
             }
           }
@@ -100,6 +105,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -139,14 +149,14 @@
         }
       }
     },
-    "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj": {
+    "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj",
+        "projectUniqueName": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj",
         "projectName": "MyORMLibrary",
-        "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj",
+        "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj",
         "packagesPath": "/Users/almaz_nizamov/.nuget/packages/",
-        "outputPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/obj/",
+        "outputPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/almaz_nizamov/.nuget/NuGet/NuGet.Config"
@@ -168,6 +178,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -203,14 +218,14 @@
         }
       }
     },
-    "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj": {
+    "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj",
+        "projectUniqueName": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj",
         "projectName": "TemplateEngine",
-        "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj",
+        "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj",
         "packagesPath": "/Users/almaz_nizamov/.nuget/packages/",
-        "outputPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/TemplateEngine/obj/",
+        "outputPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngine/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/almaz_nizamov/.nuget/NuGet/NuGet.Config"
@@ -226,8 +241,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj": {
-                "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj"
+              "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj": {
+                "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj"
               }
             }
           }
@@ -236,6 +251,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {

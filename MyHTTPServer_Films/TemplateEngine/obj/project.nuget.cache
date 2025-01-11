@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j71QCBtg4euNHDKA/5wUMTYKcxCdQehSS8r707IvOCVzbQrHQWPCcjdArwJIeI619jR6fW59R4uWEcaJSskbEg==",
+  "dgSpecHash": "JUKLkya3JHoM6FOnZXSNBIgEV84e4dlKzA6czrytw5FqwyTGlKxYPDWbLQ0KYx0ilWqrTDbL7fYGZhRMMckyOg==",
   "success": true,
-  "projectFilePath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj",
+  "projectFilePath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj",
   "expectedPackageFiles": [
     "/Users/almaz_nizamov/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/almaz_nizamov/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

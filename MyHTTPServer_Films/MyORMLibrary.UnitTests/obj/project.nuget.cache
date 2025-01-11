@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DNk90pYeNQ1naF6aVb2yp4wC8EfA1GYSWIt0Bd4XVbY9nhkqLITMmibuXSCrGJMoOHpQWdnM7HPOuMj3DZOwBQ==",
+  "dgSpecHash": "leD4cAgeOZZ24UugO9yY5i6+wYXLp5IRIUlAzPEteLrA8H78jfVzd2w852Q5fE1TwIBMJ+jC8NOOFMHlPPCXww==",
   "success": true,
-  "projectFilePath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj",
+  "projectFilePath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj",
   "expectedPackageFiles": [
     "/Users/almaz_nizamov/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/almaz_nizamov/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

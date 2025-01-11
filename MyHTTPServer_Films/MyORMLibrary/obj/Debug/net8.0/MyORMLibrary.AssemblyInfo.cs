@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyORMLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eef3ae2657b1f929253d5280f707e045ae455514")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61ec2c8dc4581f7201ca99fe6f6d954297ac4576")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyORMLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyORMLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

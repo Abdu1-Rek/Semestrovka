@@ -2914,11 +2914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj",
+      "projectUniqueName": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj",
       "projectName": "TemplateEngineUnitTests",
-      "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj",
+      "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj",
       "packagesPath": "/Users/almaz_nizamov/.nuget/packages/",
-      "outputPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/TemplateEngineUnitTests/obj/",
+      "outputPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngineUnitTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/almaz_nizamov/.nuget/NuGet/NuGet.Config"
@@ -2934,14 +2934,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj": {
-              "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj"
+            "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj": {
+              "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/HttpServerLibrary/HttpServerLibrary.csproj"
             },
-            "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj": {
-              "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj"
+            "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj": {
+              "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyHTTPServer/MyHTTPServer.csproj"
             },
-            "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj": {
-              "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj"
+            "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj": {
+              "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/TemplateEngine/TemplateEngine.csproj"
             }
           }
         }
@@ -2950,6 +2950,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

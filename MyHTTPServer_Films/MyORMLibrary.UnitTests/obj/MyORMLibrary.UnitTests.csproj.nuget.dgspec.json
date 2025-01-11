@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj": {}
+    "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj": {}
   },
   "projects": {
-    "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj": {
+    "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj",
+        "projectUniqueName": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj",
         "projectName": "MyORMLibrary.UnitTests",
-        "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj",
+        "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj",
         "packagesPath": "/Users/almaz_nizamov/.nuget/packages/",
-        "outputPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/obj/",
+        "outputPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary.UnitTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/almaz_nizamov/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj": {
-                "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj"
+              "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj": {
+                "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj"
               }
             }
           }
@@ -37,6 +37,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -84,14 +89,14 @@
         }
       }
     },
-    "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj": {
+    "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj",
+        "projectUniqueName": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj",
         "projectName": "MyORMLibrary",
-        "projectPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj",
+        "projectPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/MyORMLibrary.csproj",
         "packagesPath": "/Users/almaz_nizamov/.nuget/packages/",
-        "outputPath": "/Users/almaz_nizamov/Downloads/Semestrovka/MyHTTPServer_Films/MyORMLibrary/obj/",
+        "outputPath": "/Users/almaz_nizamov/Desktop/Semestrovka/MyHTTPServer_Films/MyORMLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/almaz_nizamov/.nuget/NuGet/NuGet.Config"
@@ -113,6 +118,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
